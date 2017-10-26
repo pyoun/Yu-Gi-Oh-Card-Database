@@ -1,16 +1,11 @@
 #!/usr/bin/python
 
+# working with 3 independent list of cards for YGO WCT 2006
+
 import re
 
 def main():
-	cards = "cards.txt"
-	file = open(cards, "r")
-
-	consecdots = re.compile(r'\.{3,}')
-
-	for line in file:
-		line = consecdots.sub('', line)
-		print(line)
+	return
 	
 if __name__ == '__main__':
 	main()
