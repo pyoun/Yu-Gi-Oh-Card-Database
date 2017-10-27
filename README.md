@@ -4,7 +4,7 @@
 10/26/2017
 Cleaned up raw card lists, and the cleaned list can be found at *cleaned_cards*
 
-Need to categorize each of the 1610 cards into one of the following categories:
+Need to categorize each of the ~1610~ 1609 cards into one of the following categories:
 1. Normal Monster
 2. Effect Monster
 3. Fusion Normal Monster
