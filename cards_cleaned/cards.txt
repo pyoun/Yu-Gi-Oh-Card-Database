@@ -1358,7 +1358,8 @@
 15960641 Mirage Dragon 
 08198712 End of the World
 67048711 7 
-07459013 Zure, Knight of Dark World 31829185 Dark Necrofear 
+07459013 Zure, Knight of Dark World
+31829185 Dark Necrofear 
 64274292 Meteorain 
 53119267 Magical Thorn
 36119641 Space Mambo 
