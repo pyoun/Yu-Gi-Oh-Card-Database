@@ -30,3 +30,7 @@ For all monster cards, columns are required to denote ATK, DEF, and LVL informat
 10/27
 Unable to automate crawling/searching due to Google. Alternative method required to automate card type generation.
 Extra fields for card database required to denote type, effect, and other information.
+
+**10/27 EDIT**
+No need to crawl/search via Google. Using the [yugioh.wikia.com](http://yugioh.wikia.com/wiki/) wiki pages, I can scrape card type and other relevant information from the website. 
+Before actually scraping the necessary information, a database with appropriate measurements must be made (including but not limited to: cardNumber, cardName, cardType, *Attribute*, *monsterType*, *monsterLevel*, *monsterATK*, *monsterDEF*, etc.)
