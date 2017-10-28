@@ -29,3 +29,4 @@ For all monster cards, columns are required to denote ATK, DEF, and LVL informat
 
 10/27
 Unable to automate crawling/searching due to Google. Alternative method required to automate card type generation.
+Extra fields for card database required to denote type, effect, and other information.
