@@ -26,3 +26,6 @@ For the *effect IDs* which require a target card for the card interaction, a *ta
 - GVYD (Cards in the graveyard)
 
 For all monster cards, columns are required to denote ATK, DEF, and LVL information.
+
+10/27
+Unable to automate crawling/searching due to Google. Alternative method required to automate card type generation.
