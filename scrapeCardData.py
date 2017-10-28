@@ -38,6 +38,7 @@ def main():
 			gagagigo.append(stars)
 			gagagigo.append(list_of_a[start_index + int(stars) + 10].text)
 			gagagigo.append(list_of_a[start_index + int(stars) + 11].text)
+			gagagigo.append(soup.find(class_="navbox-list").text[1:])
 		elif cardType == "F93":
 			list_of_a = soup.find_all("a")
 			start_index = list_of_a.index(soup.find(title="Monster Card"))
@@ -47,6 +48,7 @@ def main():
 			dmgg.append(stars)
 			dmgg.append(list_of_a[start_index + int(stars) + 11].text)
 			dmgg.append(list_of_a[start_index + int(stars) + 12].text)
+			dmgg.append(soup.find(class_="navbox-list").text[1:])
 		elif cardType == "96C":
 			list_of_a = soup.find_all("a")
 			start_index = list_of_a.index(soup.find(title="Monster Card"))
@@ -56,22 +58,25 @@ def main():
 			beud.append(stars)
 			beud.append(list_of_a[start_index + int(stars) + 11].text)
 			beud.append(list_of_a[start_index + int(stars) + 12].text)
+			beud.append(soup.find(class_="navbox-list").text[1:])
 		elif cardType == "396":
 			fissure.append("SPELL")
 			for i in range(4):
 				fissure.append("")
+			fissure.append(soup.find(class_="navbox-list").text[1:])
 		elif cardType == "F36":
 			exchange.append("TRAP")
 			for i in range(4):
 				exchange.append("")
+			exchange.append(soup.find(class_="navbox-list").text[1:])
 
-
+	
 	print(gagagigo)
 	print(dmgg)
 	print(exchange)
 	print(fissure)
 	print(beud)
-
+	
 
 
 if __name__ == "__main__":
