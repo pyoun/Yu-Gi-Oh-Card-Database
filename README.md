@@ -34,3 +34,7 @@ Extra fields for card database required to denote type, effect, and other inform
 **10/27 EDIT**
 No need to crawl/search via Google. Using the [yugioh.wikia.com](http://yugioh.wikia.com/wiki/) wiki pages, I can scrape card type and other relevant information from the website. 
 Before actually scraping the necessary information, a database with appropriate measurements must be made (including but not limited to: cardNumber, cardName, cardType, *Attribute*, *monsterType*, *monsterLevel*, *monsterATK*, *monsterDEF*, etc.)
+
+2/15/2018
+Scraped all 1610 cards from the wiki pages, appropriate database *cards_full.db* contains 9 columns:
+*cardNumber, cardName, cardAttribute, cardType, cardLevel, cardAttack, cardDefense, cardEffect, cardColor*
